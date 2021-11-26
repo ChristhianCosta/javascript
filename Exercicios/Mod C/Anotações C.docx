@@ -1,0 +1,14 @@
+#AULA 1
+Utilizando o Dom
+
+Document Object Model: 
+
+árvore DOM do site que inicia pela raiz window, é uma organizção de hierarquia.
+
+ao escrever em JS document. Window. Etc você está acessando esse elemento na árvore e seus elementos filhos
+
+» Metodos de seleção de elementos
+
+> Por Tag
+
+getElementsByTagName(‘tag’)[qual a num da tag iniciando de 0]

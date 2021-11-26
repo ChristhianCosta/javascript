@@ -1,0 +1,29 @@
+#AULA 1
+Utilizando o Dom
+
+Document Object Model: 
+
+árvore DOM do site que inicia pela raiz window, é uma organizção de hierarquia.
+
+ao escrever em JS document. Window. Etc você está acessando esse elemento na árvore e seus elementos filhos
+
+» Metodos de seleção de elementos
+
+> Por Tag
+
+getElementsByTagName(‘tag’)[qual a num da tag iniciando de 0]
+
+ window.document.write("Está escrito assim: " + p1.innerText) - vai retornar o texto  base,  sem formatação
+
+ window.document.write("Está escrito assim: " + p1.innerHtml) - vai retornar o texto formatado
+
+> Por ID  etc
+
+>> Você  pode  mesmo mudar o texto interno  para  outros com .innerText = 'lorem'
+
+se  há  'elements' precisa  se usar [n] no fim da função para definir  qual  o numero  da  entrada
+
+> por  seletor  window.document.querySelector('div#msg')
+aqui usa a seleção do CSS 
+
+###

@@ -1,0 +1,34 @@
+### Condições parte 2
+
+>> Condições aninhada
+*Indentação
+
+	if(cond){
+		block1
+	} else {
+		if(cond2){
+			bloco2
+		}else {
+			b2
+		}
+	}
+
+* else if (cond){}
+
+>>  Condição Múltipla, para valores fixos
+
+	switch(expressão){
+	case valor 1:
+		bloco
+		break (obrigatório para seguir  o  fluxo)
+	case valor 2:
+		bloco
+		break
+	case valor 3:
+		bloco
+		break
+	default:
+
+		bloco
+		break
+	}

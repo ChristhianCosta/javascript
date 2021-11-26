@@ -1,0 +1,35 @@
+#### eventos DOM
+
+Aquilo que possa  acontecer  com algum objeto
+
+>>  Eventos de mouse
+
+	* mouseenter: quando o cursor entra  no espaço do objeto
+	* mousemove: disparado para  cada  movimento
+	* mousedown: click e hold
+	* mouseup:  hold and  release
+	* click:   click sem segurar
+	* mouseout
+
+>>  funções
+conjunto de linhas  executadas quando ocorrer em um evento
+	*São organizadas em {blocos}
+		function ação(parâmetros){}
+
+>> Disparar uma  função no html
+
+	<div id="area" onclick="clicar()"  onmouseenter="entrar()" onmouseout="sair()">
+        Interaja
+    	</div>
+
+Nesse exemplo cada  onclick, onmouse etc   é um tipo de gatilho pra  uma  função
+
+>> Disparar com event listener  do JS
+Dentro do script se  usa
+	a.addEventListener{'ação', nomeFunção}
+
+	a.addEventListener{'click', clicar}
+        a.addEventListener{'mouseenter',  entrar}
+        a.addEventListener{'mouseout', sair}
+	
+

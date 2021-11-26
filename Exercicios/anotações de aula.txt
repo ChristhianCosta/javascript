@@ -1,0 +1,72 @@
+### Repetições ou laços
+
+	while (condição){
+
+	}
+
+- Primeiro executa o bloco e depois faz o teste para fazer o loop
+
+	do {
+
+	}while(condição)
+
+#=> Aula 14
+
+### Repetição com váriavel de controle
+
+	for (inicio; teste; incremento){
+	
+	}
+
+	for (var c=1; c<=10; c++){
+	
+	}
+### Modo de depuração
+
+
+#=> Aula 15
+
+### Variaveis Compostas
+
+- Armazenam vários valores de uma vez
+
+- são chamadas vetores/arrays e contem elementos organizados em índices
+
+	var num = [elemento0, elemento1, elemento2]
+
+	let num = [elemento0, elemento1, elemento2]
+
+	let num = [5, 8, 4]
+
+- Para inserir um valor em uma posição usada ou nova poe-se usar:
+
+	num[p] = vp
+
+- Para inserir sem pensar ou se preocupar na posição no vetor se usa:
+
+	num.push(v)
+
+- comprimento do vetor, note que o comprimento do vetor conta o número de posições ocupadas então inicia em 1 mesmo que o indice inicial seja 0
+
+	num.length
+
+- Para ordenar um vetor em ordem crescente se usa .sort()
+
+	num.sort()
+
+- Percurso para mostrar vetores tradicional
+
+	for (var p = 0; p < num.length; p++){
+ 		console.log(`A entrada ${p} do vetor é ${num[p]}`)
+	}
+
+# For in - uma estrutura usando for com apenas 2 definições. Essa estrutura funciona apenas para Vetores e Objetos
+
+	for( let pos in array ){
+
+	}
+
+- Buscar valores com .indexOf(n), busca qual o indice com o valor n, caso não encontre retorna o valor -1 
+
+	num.indexOf(7)
+

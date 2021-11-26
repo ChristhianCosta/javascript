@@ -1,0 +1,13 @@
+### Condições
+
+>>> Sequências
+é o fluxo  de  execução  do código
+
+>> Condições(if)
+
+	if(condição){
+		*se a condição  for  verdadeira*
+	} else{
+		*se for falsa*
+	}
+

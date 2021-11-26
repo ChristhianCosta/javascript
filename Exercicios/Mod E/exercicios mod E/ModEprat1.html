@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgba(12, 54, 240, 0.884);
+    }
+    header h1{
+        text-align: center;
+        font-size: 3.5em;
+    }
+    section{
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 5px;
+        height: 400px
+    }
+    div{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    p{
+        text-align:center;
+    }
+</style>
+<body>
+    <header>
+        <h1>Exercicio 01</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Inicio:</p><input type="number" name="inicio" id="tini" placeholder="1,2,3...">
+            <p>Fim:</p><input type="number" name="fim" id="tfim" placeholder="1,2,3...">
+            <p>Passo:</p><input type="number" name="pas" id="tpas" placeholder="1,2,3..."> <br style="margin-bottom: 10px;">
+            <input type="button" value="contar" onclick="contar()">
+        </div>
+
+        <div>
+            <p id="res">
+
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Curso em Video</p>
+    </footer>
+    <script src="ModEprat1.js">
+
+    </script>
+</body>
+</html>

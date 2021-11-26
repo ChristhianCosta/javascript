@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.774);
+        }
+        div{
+            text-indent: 5px;
+            padding: 10px;
+            background-color: bisque;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.658);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>somando valores</h1>
+        <input type="number" name=""
+        id="n1"> <br>
+        <input type="number" name="" id="n2"><br>
+        <input type="button" value="Somar" id="somar" onclick="somar()">
+        <p id="resultado"></p>
+    </div>
+    
+    <script>
+        function somar(){
+            var tn1 = window.document.getElementById('n1')
+            var tn2 = window.document.querySelector('input#n2')
+            var res= window.document.getElementById('resultado')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            //usando string interpolada
+            res.innerText=`O resultado  da  soma de ${n1} e ${n2} é ${s}`
+            res.style.background='green'
+            res.style.marginTop='20px'
+
+        }
+    </script>
+</body>
+</html>

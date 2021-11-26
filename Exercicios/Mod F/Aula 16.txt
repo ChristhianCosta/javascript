@@ -1,0 +1,28 @@
+##### Vetores pt.2
+
+### Funções - São ações executadas em decorrÊncia de chamadas ou eventos (automatizada), elas recebem parâmetros e retornam resultados
+
+
+	function ação(parametros){
+		
+		bloco
+		return res
+	}
+
+ação(5) - chama a função com parametro de 5
+
+### verificar de n é par ou impar
+
+	function parimp(n){
+	
+	if (n%2==0){
+	return 'par'
+	
+	}else {
+	return 'impar'
+	}
+
+	}
+
+let res = parimp(n)
+

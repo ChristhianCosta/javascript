@@ -1,0 +1,37 @@
+:root{
+--corbg:#44AAE1;
+}
+*{
+    text-indent: 5px;
+    
+    
+}
+body{
+    background-color: var(--corbg);
+}
+header{
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5em;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px;
+    margin-bottom: 40px;
+}
+div #res{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+}
+footer{
+    margin-left: -10px;
+    width: 100%;
+    background-color: #c06930;
+    color: white;
+    text-align:center;
+    padding-bottom: 40px;
+}

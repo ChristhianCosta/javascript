@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../../../html/Exercicios/Imagens/html5.png" type="image/x-icon">
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    h1{
+        background-color: blueviolet;
+        color:rgb(241, 209, 23);
+    }
+    h2{
+        background-color: white;
+    }
+</style>
+<body>
+    <h1>ola mundo</h1>
+    
+    <br style="height: 200px;">
+
+    <h2>teste de javascript</h2>
+
+
+    <script>
+        nome = window.prompt("Olá, qual seu nome")
+       n1 = Number.parseInt (window.prompt("Olá, qual seu num1?")) //recebe um valo string
+       n2 = Number.parseInt(window.prompt("num2?"))
+        alert('olá ' + nome + " a soma de seus números é " + String((n1+n2))) // concatena os dois valores strings
+        window.alert(` olá ${nome}, seu número é ${(n1+n2)}`)// string template
+    </script>
+</body>
+</html>
